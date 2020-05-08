@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('背景.png');
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-size:cover;
+}
+
+textarea {
+  width: 100%;
+  height: 50px;
+}
+button {
+  padding: 10px;
+  background-color: rgb(66, 207, 47);
+  border: 1px solid lightblue;
+}
+input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+input, textarea, button {
+  border-radius: 3px;
+}
+
+.main {
+    margin: 20px;
+    padding: 15px;
+}
+</style>
+</head>
+<body>
+    <div class="main">
+    <form>
+        <fieldset>
+          <legend>填寫資料</legend>
+          <label for = "username">電子郵件:</label><br>
+          <input type = "text" id ="username" name=username><br/>
+          <label for="password">密碼:</label><br>
+          <input type="password" id="password" name="password"><br/>
+          <label for="fname">姓氏:</label><br>
+          <input type="text" id="fname" name="fname"><br/>
+          <label for="lname">名字:</label><br>
+          <input type="text" id="lname" name="lname"><br/>
+          <label for="number">連絡電話:</label><br>
+          <input type="text" id="number" name="number"><br/>
+
+            <label>性別</label><br>
+                <select id="gender" name="gender">
+                <option value="male">男性</option>
+                <option value="female">女性</option>
+                <option value="another">第三性</option>
+                </select><br/>
+
+          <label>血型</label><br>
+            <select id="bloodtype" name="bloodtype">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="AB">AB</option>
+                <option value="O">O</option>
+            </select><br/>
+
+        <label for="birthday">生日:</label><br/>
+        <input type="date" id="birthday" name="birthday">
+        <br/>
+
+        <label>備註:</label>
+        <textarea name = "message"></textarea><br/><br/>
+       
+          <button onclick="alert('完成')">註冊</button>    <button input type=reset>重設</button><br/>
+
+      <input type="checkbox" name="subscribe" value="subscribe">
+      <label>訂閱電子報:</label>
+        </fieldset>
+      </form>      
+</div>
+
+</body>
+</html>
