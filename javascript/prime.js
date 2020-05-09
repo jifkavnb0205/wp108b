@@ -11,4 +11,4 @@ for(i=a;i<=b;i++){
         c=c+1;
     }
 }
-console.log('countPrime(3,7)=',c);
+console.log('countPrime(8,20)=',c);
