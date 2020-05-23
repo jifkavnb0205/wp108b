@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            h1{
+                font-family: "標楷體";
+                font-weight: 300;
+                text-align: center;
+                font-size: 50px;
+            }
+            div.a{                             /*文字區塊*/
+                border: 1px solid black;
+                background-color: lightblue;
+                padding-top: 30px;
+                padding-right: 250px;
+                padding-bottom: 50px;
+                padding-left: 250px
+                
+            }                                   
+
+            p{
+                text-align: justify;
+                font-size: 20px;
+
+            }
+            
+            .sidenav {
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: #111;
+                overflow-x: hidden;
+                transition: 0.5s;
+                padding-top: 60px;
+            }
+
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+            }
+
+            .sidenav a:hover {
+                color: #f1f1f1;
+            }
+
+            .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+            @media screen and (max-height: 450px) {
+                .sidenav {padding-top: 15px;}
+                .sidenav a {font-size: 18px;}
+            }
+            .navbar {
+                overflow: hidden;
+                background-color: rgb(154, 177, 51);
+            }
+
+            .navbar a {
+                float: right;
+                font-size: 16px;
+                color: white;
+                text-align: right;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            .dropdown {
+                float: right;
+                overflow: hidden;
+            }
+
+            .dropdown .dropbtn {
+                font-size: 16px;  
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+
+            .navbar a:hover, .dropdown:hover .dropbtn{
+                background-color: red;
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        </style>
+    </head>
+<body>
+        <div id="mySidenav" class="sidenav">  <!--側欄的部分-->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="main.html" title="回主頁">主頁</a>
+            <a href="關於我.html">關於我</a>
+            <a href="自傳.html">自傳</a>
+            <a href="https://github.com/jifkavnb0205" title="李安博的Github" target="blank">我的Github</a>
+        </div>
+        
+        
+        <div class="navbar">             <!--功能表-->
+            <span style="font-size: 35px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <b style="font-size: 25px;margin-left: 500px;color: maroon;">🕖現在時間:</b>
+            <b id="datetime" style="font-size: 25px;color: maroon;"></b>  <!--現在時間-->
+            <a href="main.html">回首頁</a>
+            <!--放時間-->
+            <div class="dropdown">
+                <button class="dropbtn">一些網站
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="https://www.youtube.com/" title="真的只是Youtube">Youtube</a>
+                    <a href="https://www.facebook.com/" title="真的只是Facebook">Facebook</a>
+                    <a href="https://www.w3schools.com/" title="w3school">前往w3school</a>
+                </div>
+            </div> 
+        </div>
+
+        <div class="a"> 
+
+            <h1>家庭背景</h1>
+            <p>
+                我出生在一個平凡美滿的家庭，家中有五名成員，父親是室內設計師，母親是家庭主婦，我在兄弟姊妹中排行老大，所以父母就教導我要表現好，才能做妹妹的榜樣。一直以來，父母都是採取民主的方式教導我們，因為這樣，我在與其他人互動時都會互相尊重，俗話說:「要別人尊重你，那你必須要先尊重其他人」，這句話我總是銘記在心。成績方面父母並沒有非常的苛求，他們沒有一定要我們在未來拼出一番大事業，只要能養活自己，日子過得下去就好，最重要的就是「不要學壞」，雖然父母沒有特別要求成績，但我還是會對自己設立目標，畢竟讀書也是一件重要的事。
+            </p>
+            <h1>求學歷程</h1>
+            <p>
+                在讀國小的時候，並不太喜歡讀書，學業成績的表現平平，但我很活潑、好動，非常喜歡運動，曾經幫助班上獲得校內樂樂棒比賽第一名，代表學校參加比賽，雖然最後還是敗下陣來，不過每個人都盡了最大的努力來比賽。此外，因為我個性活潑，所以總是會在同樂會被老師點名當主持人。
+                上了國中，我變得不再向國小一樣好動，但還是喜歡運動，也學到了更多的禮節和待人處事的道理。國中時的我，好像開了竅，成績明顯提升，一直保持在班上前幾名。
+                上了高中之後，認識了更多來自不同地方的人，交了很多朋友，每天都過得很充實、很快樂。課業方面，高中的課業已經比國中還更艱深，所以我也很認真地讀書，上課專心聽課，把重要觀念記起來，不會的題目拿去問老師或同學，還要複習，把問過的問題再想一次，讓自己變得更精進，保持在一個好的水準。在這麼多的科目中，我最喜歡生物，因為生物和日常生活息息相關。
+                除了課業，其他方面我也沒有偏廢，一年級時參加圍棋社，下棋考驗我的腦力，讓我腦筋動得更快，也能增加我的耐心、專注力和邏輯思考能力，而且社團也使我認識更多的朋友。我最喜歡的運動是排球，國中的排球比賽，我真正接觸到了排球，甚至馬上就愛上這項運動，於是我在體育課的幾項排球考試都是滿分，因為我真的非常喜愛排球，高二時的排球比賽，我期待了一整個學期，畢竟是一個能讓我表現的時間，體育課和同學拼命的練習，比賽的前一個禮拜，放學後也會和別班的同學一起切磋練習，最後我們拿了第二名的好成績。
+                現在我就讀國立金門大學資訊工程學系一年級。
+            </p>
+        </div>
+        
+
+
+
+
+<script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);
+</script>
+</body>
+</html>

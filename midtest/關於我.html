@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                font-family: "Lato", sans-serif;
+                background-image: url('D:/alan/wp108b/midtest/image/關於我背景.jpg'); /*背景*/
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100% 100%;
+            }
+
+            h1{
+                text-align: center;
+                font-size: 80;color: rgb(42, 80, 206);
+                font-family: 標楷體;
+                font-style:italic;              /*斜體*/
+            }
+
+            table{
+                text-align: center;            /*字靠左*/
+                border:6px gray groove;      /*邊線顏色*/
+                background-color:lightcoral ;/*表格背景色*/
+            }
+
+            a{                      
+                color: mediumblue;        /*超連結顏色*/
+                text-decoration: none;      /*超連結預設隱藏底線*/
+            }
+            a:hover{                        
+                text-decoration: underline; /*游標在連結上有底線*/
+            }
+
+            td{
+                font-weight: bold;          /*粗體字*/
+                padding: 10px;
+            }
+            .tab{
+                text-align: left;
+            }
+
+            img{
+                border: black 2px solid; /*圖片加邊框*/
+            }
+
+            .sidenav {
+                height: 100%;
+                width: 0;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                left: 0;
+                background-color: rgb(0, 0, 0);
+                overflow-x: hidden;
+                transition: 0.5s;
+                padding-top: 60px;
+            }
+
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+            }
+
+            .sidenav a:hover {
+                color: #f1f1f1;
+            }
+
+            .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+
+            @media screen and (max-height: 450px) {
+            .sidenav {padding-top: 15px;}
+            .sidenav a {font-size: 18px;}
+            }
+
+            .navbar {
+                overflow: hidden;
+                background-color: rgb(154, 177, 51);
+            }
+
+            .navbar a {
+                float: right;
+                font-size: 16px;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            .dropdown {
+                float: right;
+                overflow: hidden;
+            }
+
+            .dropdown .dropbtn {
+                font-size: 16px;  
+                border: none;
+                outline: none;
+                color: white;
+                padding: 14px 16px;
+                background-color: inherit;
+                font-family: inherit;
+                margin: 0;
+            }
+
+            .navbar a:hover, .dropdown:hover .dropbtn {
+                background-color: red;                   /*紅色比較顯眼*/
+            }
+
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: #f9f9f9;
+                min-width: 160px;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+            }
+
+            .dropdown-content a {
+                float: none;
+                color: black;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+
+            .dropdown-content a:hover {
+                background-color: #ddd;
+            }
+
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="navbar">             <!--功能表-->
+            <span style="font-size:35px;cursor:pointer" onclick="openNav()">&#9776;</span>
+            <b style="font-size: 25px;margin-left: 500px;color: maroon;">🕒現在時間:</b>
+            <b id="datetime" style="font-size: 25px;color: maroon;"></b>  <!--現在時間-->
+            <a href="main.html">回首頁</a>
+            <div class="dropdown">
+              <button class="dropbtn">一些網站 
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="https://www.youtube.com/" title="真的只是Youtube">Youtube</a>
+                <a href="https://www.facebook.com/" title="真的只是Facebook">Facebook</a>
+                <a href="https://www.w3schools.com/" title="w3school">前往w3school</a>
+              </div>
+            </div> 
+        </div>
+
+        <div id="mySidenav" class="sidenav">     <!--側欄-->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="main.html" title="回主頁">主頁</a>
+            <a href="關於我.html">關於我</a>
+            <a href="自傳.html">自傳</a>
+            <a href="https://github.com/jifkavnb0205" title="李安博的Github" target="blank">我的Github</a>
+          </div>
+
+        <h1>我的一些基本資料喔喔喔喔</h1>
+
+        <table align="center" border=5>    <!--資料表格，置中，有分隔線-->
+            <tbody>
+                <tr><td>姓名</td><td>李安博</td></tr>
+                <tr><td>性別</td><td>男</td></tr>
+                <tr><td>生日</td><td>2001/7/29</td></tr>
+                <tr><td>星座</td><td>獅子座</td></tr>
+                <tr>
+                    <td>興趣</td>
+                    <td class="tab">
+                        <li>聽音樂</li><br>
+                        <li>Youtube看影片</li><br>
+                        <li>打排球!!!!!!!</li><br>
+                        <img src="image/球.png" alt="打球囉" title="通常不是這樣打啦..." width="400" height="200"> <!--排球圖片-->
+                    </td>
+                </tr>
+                <tr>
+                    <td>社群網站</td>
+                    <td class="tab">
+                        <li><a href="https://www.facebook.com/profile.php?id=100003734859514;" target="_blank" title="李安博的Facebook">我的FB</a></li><br>
+                        <li><a href="https://www.instagram.com/jifkavnb_0729/" target="_blank" title="李安博的Instagram">我的Instagram</a></li><br>                  
+                    </td></tr>
+                <tr>
+                    <td>專業證照</td>
+                    <td class="tab">
+                        <li>網頁設計丙級</li><br>
+                        <img src="image/證照正面.jpg" alt="網頁設計丙級證照" title="網頁設計丙級證照" width="350" height="200">
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+            }
+            setInterval("document.getElementById('datetime').innerHTML=new Date().toLocaleString();", 1000);
+            </script>
+    </body>
+</html>
