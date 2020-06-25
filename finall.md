@@ -57,4 +57,4 @@ padding=100px:
 ![圖片](https://scontent.fkhh1-1.fna.fbcdn.net/v/t1.15752-9/105407244_213596959687786_3593099521057431215_n.png?_nc_cat=103&_nc_sid=b96e70&_nc_ohc=MEkfIf2wReIAX-TsHOp&_nc_ht=scontent.fkhh1-1.fna&oh=57180fd21d8c6285c870e0255a724788&oe=5F1A32BE)  
   
 ## 總結  
-這學期網頁設計學了不少東西，
+這學期網頁設計學了不少東西，一開始的東西還能夠理解，不過後面越來越需要時間理解，值得慶幸的是在Facebook社團還有老師的上課紀錄，看來現在還沒理解的必須用暑假來好好補救了。
