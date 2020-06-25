@@ -43,4 +43,15 @@ ex:＜a href = 網址 ＞ 字串 ＜/a＞。
 ![圖片](https://scontent.fkhh1-2.fna.fbcdn.net/v/t1.15752-9/106411589_764572137715871_5792728676337989562_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_ohc=Ye7xjfkB2vQAX_4-lN1&_nc_ht=scontent.fkhh1-2.fna&oh=b98007951bad2ba91a77db820491f39d&oe=5F1900F5)  
 6.＜meta＞能夠將網頁的內容提供給搜尋引擎，而其中的viewport可根據裝置的不同並改變解析度。   
 7.＜table＞是表格的定義標籤。＜table＞中的＜tr＞代表「行」，＜td＞為數據單元格，其中預設的格是向左對齊。＜th＞定義為表頭單元格，其中預設的字體為粗體並且置中。  
-8.
+8.font-size:改變字體大小。  
+9.font-fmaily:改變字型。  
+10.text-aling:設定文字位置。  
+11.color:能夠設定顏色，background-colour:設定背景顏色。  
+12.padding:設定文字和邊界距離。  
+ex:  
+padding=10px:  
+![圖片](https://scontent.fkhh1-2.fna.fbcdn.net/v/t1.15752-9/106127807_270050177436229_5046188601917091498_n.png?_nc_cat=111&_nc_sid=b96e70&_nc_ohc=GvpmM3XKcj4AX9Mt2-W&_nc_ht=scontent.fkhh1-2.fna&oh=31e830124bc1c6bc17507a78e8265013&oe=5F1B4557)--＞
+![圖片](https://scontent.fkhh1-2.fna.fbcdn.net/v/t1.15752-9/106228009_937416720061039_8299895896330980605_n.png?_nc_cat=111&_nc_sid=b96e70&_nc_ohc=PCyeaEHlhS8AX-Dz0-4&_nc_ht=scontent.fkhh1-2.fna&oh=61e3044253a5b42464e992d6427eb8fd&oe=5F1957BC)  
+padding=100px:  
+![圖片](https://scontent.fkhh1-2.fna.fbcdn.net/v/t1.15752-9/105809955_298713051282925_5816556696565308816_n.png?_nc_cat=104&_nc_sid=b96e70&_nc_ohc=FOJkWIkQWcYAX8w8OeG&_nc_ht=scontent.fkhh1-2.fna&oh=7391a1fdf9a813283c186c27f115b0a4&oe=5F1ACF6C)--＞
+![圖片](https://scontent.fkhh1-1.fna.fbcdn.net/v/t1.15752-9/105407244_213596959687786_3593099521057431215_n.png?_nc_cat=103&_nc_sid=b96e70&_nc_ohc=MEkfIf2wReIAX-TsHOp&_nc_ht=scontent.fkhh1-1.fna&oh=57180fd21d8c6285c870e0255a724788&oe=5F1A32BE)  
