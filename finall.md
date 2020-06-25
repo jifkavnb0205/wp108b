@@ -33,9 +33,14 @@ CSS和HYML是從[W3Scool](https://www.w3schools.com/)看的，JavaScript是從�
 ![p](https://scontent.fkhh1-2.fna.fbcdn.net/v/t1.15752-9/105038342_737283153725880_6318024820403656116_n.png?_nc_cat=108&_nc_sid=b96e70&_nc_ohc=ZDiIIRC9_RMAX9zmdGJ&_nc_ht=scontent.fkhh1-2.fna&oh=a273db0a73a5ef550e67cb3ba531a8da&oe=5F1B2783)  
 2.＜p＞這個標前則是定義文檔段落。  
 3.＜img＞這個標籤可以用來加入圖片。  
+![圖片](https://scontent.fkhh1-2.fna.fbcdn.net/v/t1.15752-9/105487171_746637026142988_3566117358744579989_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_ohc=MR4ERmOAIqYAX_A6PI_&_nc_ht=scontent.fkhh1-2.fna&oh=982be8a8e95f8c0eb1a25124392d9c57&oe=5F1A3662)---＞
+![圖片](https://scontent.fkhh1-1.fna.fbcdn.net/v/t1.15752-9/105683159_605238227097338_7884539712398469396_n.png?_nc_cat=102&_nc_sid=b96e70&_nc_ohc=Q2aaQgnZTHEAX8Ui3qO&_nc_ht=scontent.fkhh1-1.fna&oh=ee4d4e76dfc58c457980c3863b0876b7&oe=5F1BD63B)  
 4.超連結的寫法為:在＜a＞的a之後寫href = "網址"，若是要在圖片上加上超連結，方法一樣， 
 ex:＜a href = 網址 ＞ 字串 ＜/a＞。  
+![圖片](https://scontent.fkhh1-1.fna.fbcdn.net/v/t1.15752-9/104998938_597750117822448_753318321194371867_n.png?_nc_cat=100&_nc_sid=b96e70&_nc_ohc=Orh3IQ_miZAAX99EcKY&_nc_ht=scontent.fkhh1-1.fna&oh=21ff913dfb53d2da15d55486890460f0&oe=5F1AD5BF)---＞
+![圖片](https://scontent.fkhh1-2.fna.fbcdn.net/v/t1.15752-9/105693750_753943315371315_1472891618766154528_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_ohc=EK-QgGbgBvMAX-JTmeb&_nc_ht=scontent.fkhh1-2.fna&oh=b4e59a660b570b0f281442c2f421d63a&oe=5F1C5E2C)  
 5.＜footer＞這個標籤＜footer＞這個標籤的定義是頁腳，通常會放各種資訊像作者、聯繫或其他更多的訊息。  
-6.＜meta＞能夠將網頁的內容提供給搜尋引擎。  
+![圖片](https://scontent.fkhh1-2.fna.fbcdn.net/v/t1.15752-9/106411589_764572137715871_5792728676337989562_n.png?_nc_cat=107&_nc_sid=b96e70&_nc_ohc=Ye7xjfkB2vQAX_4-lN1&_nc_ht=scontent.fkhh1-2.fna&oh=b98007951bad2ba91a77db820491f39d&oe=5F1900F5)  
+6.＜meta＞能夠將網頁的內容提供給搜尋引擎，而其中的viewport可根據裝置的不同並改變解析度。   
 7.＜table＞是表格的定義標籤。＜table＞中的＜tr＞代表「行」，＜td＞為數據單元格，其中預設的格是向左對齊。＜th＞定義為表頭單元格，其中預設的字體為粗體並且置中。  
 8.
