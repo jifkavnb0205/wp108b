@@ -24,4 +24,4 @@
 CSS和HYML是從[W3Scool](https://www.w3schools.com/)看的，JavaScript是從老師的[JavaScript教學網站](https://misavo.com/blog/%E9%99%B3%E9%8D%BE%E8%AA%A0/%E6%9B%B8%E7%B1%8D/JavaScript/%E5%9F%BA%E7%A4%8E?fbclid=IwAR3UhegANKkxB8ipp4m5_5IsSybGzyf7XgaZ9wb5dzpmINhZo7xEXHP0jjs)，有時候會直接google。
     
 ## 學習筆記
-參考的網站是[w3schools](https://www.w3schools.com/)
+參考的網站是[w3schools](https://www.w3schools.com/)  
